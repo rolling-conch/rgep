@@ -1,0 +1,37 @@
+# Local data and generated outputs
+dataset/**
+!dataset/splits/
+!dataset/splits/rssnet_pure_19580920.json
+run/
+results/
+manuscript/
+*.mat
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.ckpt*
+*.log
+*.zip
+*.doc
+*.docx
+
+# Environments, caches, editor settings, credentials
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+.env
+.env.*
+*.pem
+*.key
+credentials*
+tmp/
+
